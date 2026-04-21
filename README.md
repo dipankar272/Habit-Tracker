@@ -1,22 +1,16 @@
-# Habit Tracker Application
+# HabitFlow Intelligence
 
-A full-stack habit tracking application built with **React**, **Express**, and **LowDB**. Create, manage, and visualize your daily habits with beautiful charts.
+**HabitFlow Intelligence** is a responsive, full-stack personal productivity platform designed for routine optimization and behavioral tracking through data-driven insights. Built with **React**, **Express**, and **LowDB**, it offers a high-performance, lightweight solution for architecting and monitoring daily habits. The system features a dynamic analytics dashboard that utilizes **Chart.js** for real-time visualization of habit streaks, completion rates, and behavioral patterns.
 
-## Features
+The architecture emphasizes security and seamless user experience, implementing **JWT-based authentication**, **bcrypt hashing**, and a robust RESTful API. Optimized for rapid deployment on **AWS EC2**, the platform leverages **Tailwind CSS** for a modern, mobile-first interface and **Vite** for streamlined build performance. Users operate in a secure, personalized environment to manage their growth journey, while the system ensures data persistence through an optimized local JSON storage layer. Overall, it provides a sleek, intelligence-first solution for modern habit orchestration.
 
-- 🔐 JWT-based authentication (register / login)
-- ✅ Create, update, and delete habits
-- 📊 Visualize daily habit completion using Chart.js
-- 📱 Responsive design for mobile and desktop
+*   **Frontend:** React 18, Vite, Tailwind CSS, and Chart.js.
+*   **Backend:** Node.js 22+ using Express.
+*   **Database:** LowDB (Local Persistence for low-latency operations).
+*   **Security:** JWT Authentication, bcrypt encryption, and Zod schema validation.
+*   **Deployment Target:** AWS EC2 / Elastic Beanstalk.
 
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React, Vite, Tailwind CSS, Chart.js, Axios |
-| Backend | Node.js, Express |
-| Database | **LowDB** (local JSON file — no external DB required) |
-| Auth | JWT (JSON Web Tokens) + bcryptjs |
+**Live Preview:** [http://localhost:5173](http://localhost:5173)
 
 ---
 
